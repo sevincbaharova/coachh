@@ -1,0 +1,86 @@
+section {
+  width: 85em;
+  height: 120em;
+}
+
+section .heading {
+  width: 85em;
+  height: 5em;
+  position: relative;
+  text-align: center;
+  border: 1px solid white;
+  position: fixed;
+  background-color: white;
+}
+
+section .heading .menu {
+  width: 85em;
+  height: 3em;
+  word-spacing: 80px;
+  margin-top: 15px;
+}
+
+section .heading .head {
+  width: 85em;
+  height: 42em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+section .box {
+  width: 85em;
+  height: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .box .boxes {
+  width: 25em;
+  height: 20em;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.texts1 {
+  width: 85em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.texts1 .texts {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 800px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .class {
+  width: 82em;
+  display: table;
+}
+
+section .class .classbox {
+  text-align: center;
+}
+
+section .class:hover .classbox {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+/*# sourceMappingURL=style.css.map */

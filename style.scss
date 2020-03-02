@@ -1,0 +1,87 @@
+section{
+    width: 85em;
+    height: 120em;
+ 
+    
+    
+.heading{
+  width: 85em;
+  height: 5em;
+ position: relative;
+ text-align: center;
+  border: 1px solid white;
+   position: fixed;
+   background-color: white;
+  
+   
+   
+.menu{ 
+        width: 85em;
+        height: 3em;
+        word-spacing: 80px;
+        margin-top: 15px;
+       
+
+    } 
+    
+   
+        .head{
+            width: 85em;
+            height: 42em;
+            display: flex;
+            position: relative; 
+           
+        }
+    }
+        .box{
+            width: 85em;
+            height: 20em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+           .boxes{
+            width: 25em;
+            height: 20em;
+           
+            text-align: center;
+            } 
+        }
+        }
+section{
+.text{ 
+    text-align:center;
+   
+}
+.texts1{
+    width: 85em;
+    display: flex;
+    .texts{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+     display: flex;
+     flex-wrap: nowrap;
+     width: 800px;
+     justify-content: space-around;
+
+    }
+}  
+}
+section{
+    .class{
+        width: 82em;   
+      display: table;
+       
+        .classbox{
+        
+         
+        text-align: center;
+  
+        }
+        &:hover .classbox{
+            transform: scale(2);
+           
+        }
+    }
+}
